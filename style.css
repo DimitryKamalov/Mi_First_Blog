@@ -1,0 +1,149 @@
+body {
+  animation:color-change 5s infinite linear;
+}
+
+@-webkit-keyframes color-change {
+   0%{background-color:#66ccff;} 
+   10%{background-color:#1ab2ff;}
+   20%{background-color:#0099e6;}
+   30%{background-color:#006699;}
+   40%{background-color:#00334d;}
+   50%{background-color:#00334d;}
+   60%{background-color:#006699;}
+   70%{background-color:#0099e6;}
+   80%{background-color:#1ab2ff;}
+   90%{background-color:#66ccff;}
+   100%{background-color:#66ccff;}
+}
+
+ul.circle {
+   list-style-type: circle;
+}
+
+.floating1 {
+    float: right ;
+    -webkit-transform: rotate(5deg);
+}
+
+.floating2 {
+    float: right;
+    cursor: pointer;
+}
+
+.floating3 {
+    float: right;
+    -webkit-transform: rotate(5deg);
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.floating4 {
+    float: right;
+    -webkit-transform: rotate(-5deg);
+    margin-top: 85px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 4px dashed #0077b3;
+    padding: 10px;
+    font-family:'Aclonica';
+    color: #005580;
+}
+
+h3 {
+    font-size: 15pt;
+    color: black;
+    font-family: 'Handlee';
+    font-size: 20px;
+    color: #002233;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Handlee';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section {
+    background-color: #cceeff;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#header {
+    background-image: url("http://cdn.wallpapersafari.com/90/77/q8koJO.jpg");
+    background-size: cover;
+    border: 1px solid black;
+}
+
+#header p {
+    font-size: 25pt;
+    color: white;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 30px;
+}
+
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+    background: #66a3ff;
+}
+
+progress::-webkit-progress-value {
+    background: #0066ff;
+} 
+
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background-color: black;
+}
+
+#ll {
+    font-family:'Handlee';
+     margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #002233;
+}
+
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
